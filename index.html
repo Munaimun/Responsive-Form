@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="opacity"></div>
+  
+  <form id="survey-form" action="#" method="post">
+    <h1>Survey Form for Web based application</h1><br>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>    
+
+    <label for="name">University/College name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="gender" value="Male">Male
+    <input type="radio" name="gender" id="gender" value="Female">Female
+
+    <label for="feedback">Short description of the application:</label>
+    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
